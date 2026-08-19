@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         app: nginx-deployment
+        environment: learning
 
     spec:
       containers:
