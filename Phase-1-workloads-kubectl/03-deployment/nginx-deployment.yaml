@@ -22,4 +22,4 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:someone-we-used-to-know
+          image: nginx:latest
