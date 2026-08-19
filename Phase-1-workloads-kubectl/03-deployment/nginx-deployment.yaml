@@ -3,6 +3,8 @@ kind: Deployment
 
 metadata:
   name: nginx-deployment
+  labels:
+    depl: nginx-deployment
 
 spec:
   replicas: 3
